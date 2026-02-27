@@ -1,0 +1,260 @@
+<!-- Савченко Максим -->
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Год семьи 2024 – семейные ценности</title>
+    <link rel="icon" href="img/favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+
+    <header>
+        <div class="container header-container">
+            <a href="#hero" class="logo">
+                <img src="img/logo.png" alt="Логотип Год семьи 2024">
+            </a>
+            <nav>
+                <ul>
+                    <li><a href="#hero">Главная</a></li>
+                    <li><a href="#initiatives">Инициативы</a></li>
+                    <li><a href="#events">Мероприятия</a></li>
+                    <li><a href="#footer">Контакты</a></li>
+                </ul>
+            </nav>
+            <div class="contact-info">
+                <span class="address"><i class="bi bi-geo-alt"></i> г. Москва, ул. Тверская, 13</span>
+                <span class="phone"><i class="bi bi-telephone"></i> +7 (900) 502-74-37</span>
+            </div>
+        </div>
+    </header>
+
+    <section class="hero-slider" id="hero">
+        <div class="slider-container">
+            <div class="slides">
+                <div class="slide active slide-1">
+                    <div class="slide-content">
+                        <h1>2024 – Год семьи в России</h1>
+                        <p>Защита традиционных семейных ценностей – наш приоритет.</p>
+                        <a href="#initiatives" class="btn">Узнать больше</a>
+                    </div>
+                </div>
+                <div class="slide slide-2">
+                    <div class="slide-content">
+                        <h1>6 региональных инициатив</h1>
+                        <p>От льготной ипотеки до бесплатной психологической помощи.</p>
+                        <a href="#initiatives" class="btn">Подробнее</a>
+                    </div>
+                </div>
+                <div class="slide slide-3">
+                    <div class="slide-content">
+                        <h1>Более 20 мероприятий</h1>
+                        <p>Фестивали, выставки, мастер-классы для всей семьи.</p>
+                        <a href="#events" class="btn">Выбрать событие</a>
+                    </div>
+                </div>
+                <div class="slide slide-4">
+                    <div class="slide-content">
+                        <h1>Регистрация открыта</h1>
+                        <p>Участвуйте в ближайших мероприятиях своего региона.</p>
+                        <a href="#events" class="btn">Зарегистрироваться</a>
+                    </div>
+                </div>
+            </div>
+
+            <button class="slider-btn prev-btn"><i class="bi bi-chevron-left"></i></button>
+            <button class="slider-btn next-btn"><i class="bi bi-chevron-right"></i></button>
+        </div>
+    </section>
+
+    <section class="initiatives" id="initiatives">
+        <div class="container">
+            <h2 class="section-title">Приоритетные инициативы региона</h2>
+            <div class="initiatives-grid">
+                <div class="initiative-card">
+                    <div class="initiative-icon"><i class="bi bi-house-door"></i></div>
+                    <h3>Семейная ипотека 2.0</h3>
+                    <p>Льготная ставка 2% для молодых семей.</p>
+                    <button class="btn btn-details" data-modal="modal1">Подробнее</button>
+                </div>
+                <div class="initiative-card">
+                    <div class="initiative-icon"><i class="bi bi-book"></i></div>
+                    <h3>Родительский университет</h3>
+                    <p>Бесплатные курсы и семинары для родителей.</p>
+                    <button class="btn btn-details" data-modal="modal2">Подробнее</button>
+                </div>
+                <div class="initiative-card">
+                    <div class="initiative-icon"><i class="bi bi-umbrella"></i></div>
+                    <h3>Семейный отдых</h3>
+                    <p>Льготные путёвки в санатории и лагеря.</p>
+                    <button class="btn btn-details" data-modal="modal3">Подробнее</button>
+                </div>
+                <div class="initiative-card">
+                    <div class="initiative-icon"><i class="bi bi-people"></i></div>
+                    <h3>Поддержка многодетных</h3>
+                    <p>Дополнительные выплаты и льготы.</p>
+                    <button class="btn btn-details" data-modal="modal4">Подробнее</button>
+                </div>
+                <div class="initiative-card">
+                    <div class="initiative-icon"><i class="bi bi-laptop"></i></div>
+                    <h3>Бабушка и дедушка онлайн</h3>
+                    <p>Компьютерная грамотность для старшего поколения.</p>
+                    <button class="btn btn-details" data-modal="modal5">Подробнее</button>
+                </div>
+                <div class="initiative-card">
+                    <div class="initiative-icon"><i class="bi bi-heart"></i></div>
+                    <h3>Семейный психолог</h3>
+                    <p>Бесплатная консультация для семей.</p>
+                    <button class="btn btn-details" data-modal="modal6">Подробнее</button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="events" id="events">
+        <div class="container">
+            <h2 class="section-title">Ближайшие мероприятия</h2>
+            <div class="events-grid">
+                <div class="event-card">
+                    <h3>Фестиваль «Семья года»</h3>
+                    <p>15 июня 2024, городской парк. Конкурсы, концерт, мастер-классы.</p>
+                    <button class="btn btn-register" data-event="Фестиваль «Семья года»" data-date="2024-06-15">Регистрация</button>
+                </div>
+                <div class="event-card">
+                    <h3>Конференция «Традиционные ценности»</h3>
+                    <p>20 июля 2024, Дворец молодёжи. Ведущие эксперты и психологи.</p>
+                    <button class="btn btn-register" data-event="Конференция «Традиционные ценности»" data-date="2024-07-20">Регистрация</button>
+                </div>
+                <div class="event-card">
+                    <h3>Выставка «Семейные истории»</h3>
+                    <p>10 августа 2024, Выставочный зал. Фотографии и истории семей.</p>
+                    <button class="btn btn-register" data-event="Выставка «Семейные истории»" data-date="2024-08-10">Регистрация</button>
+                </div>
+                <div class="event-card">
+                    <h3>Мастер-класс «Семейная кухня»</h3>
+                    <p>5 сентября 2024, Кулинарная студия. Готовим вместе с шеф-поваром.</p>
+                    <button class="btn btn-register" data-event="Мастер-класс «Семейная кухня»" data-date="2024-09-05">Регистрация</button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer id="footer">
+        <div class="container">
+            <div class="footer-container">
+                <div class="footer-about">
+                    <a href="#hero" class="footer-logo">ГОД СЕМЬИ 2024</a>
+                    <p>Официальный портал региональных программ в рамках Года семьи.</p>
+                    <div class="social-icons">
+                        <a href="#" aria-label="VKontakte"><i class="fab fa-vk"></i></a>
+                    </div>
+                </div>
+                <div class="footer-links">
+                    <h4>Навигация</h4>
+                    <ul>
+                        <li><a href="#hero">Главная</a></li>
+                        <li><a href="#initiatives">Инициативы</a></li>
+                        <li><a href="#events">Мероприятия</a></li>
+                        <li><a href="#footer">Контакты</a></li>
+                    </ul>
+                </div>
+                <div class="footer-contact">
+                    <h4>Контакты</h4>
+                    <p><i class="bi bi-geo-alt"></i> г. Москва, ул. Тверская, 13</p>
+                    <p><i class="bi bi-telephone"></i> +7 (900) 502-74-37</p>
+                    <p><i class="bi bi-envelope"></i> p4savchenko@yandex.ru</p>
+                </div>
+            </div>
+            <div class="copyright">
+                <p>&copy; 2024 Год семьи. Все права защищены.</p>
+            </div>
+        </div>
+    </footer>
+
+    <a href="#hero" class="back-to-top" aria-label="Наверх"><i class="bi bi-chevron-up"></i></a>
+
+    <div id="modal1" class="modal">
+        <div class="modal-content">
+            <span class="close-modal" aria-label="Закрыть"><i class="bi bi-x-lg"></i></span>
+            <h3>Семейная ипотека 2.0</h3>
+            <p>Региональная программа льготного кредитования для молодых семей. Ставка 2% годовых на первые 5 лет. Максимальная сумма кредита - 6 млн рублей. Возраст супругов до 35 лет.</p>
+        </div>
+    </div>
+    <div id="modal2" class="modal">
+        <div class="modal-content">
+            <span class="close-modal"><i class="bi bi-x-lg"></i></span>
+            <h3>Родительский университет</h3>
+            <p>Бесплатные онлайн-курсы и очные семинары по воспитанию, психологии и развитию детей. Обучение проводят сертифицированные специалисты. Ежегодно более 5000 родителей проходят обучение.</p>
+        </div>
+    </div>
+    <div id="modal3" class="modal">
+        <div class="modal-content">
+            <span class="close-modal"><i class="bi bi-x-lg"></i></span>
+            <h3>Семейный отдых</h3>
+            <p>Компенсация 50% стоимости путёвок в санатории и детские лагеря. Многодетные семьи получают скидку 70%. Действует круглый год, включая семейные смены.</p>
+        </div>
+    </div>
+    <div id="modal4" class="modal">
+        <div class="modal-content">
+            <span class="close-modal"><i class="bi bi-x-lg"></i></span>
+            <h3>Поддержка многодетных</h3>
+            <p>Ежемесячные доплаты к пособиям, налоговые льготы, приоритетное зачисление в детсады, компенсация ЖКХ и транспорта. Статус многодетной семьи даётся при рождении третьего ребёнка.</p>
+        </div>
+    </div>
+    <div id="modal5" class="modal">
+        <div class="modal-content">
+            <span class="close-modal"><i class="bi bi-x-lg"></i></span>
+            <h3>Бабушка и дедушка онлайн</h3>
+            <p>Бесплатные курсы компьютерной грамотности для пенсионеров. Обучение работе на смартфоне, в интернете и социальных сетях. Индивидуальные и групповые занятия.</p>
+        </div>
+    </div>
+    <div id="modal6" class="modal">
+        <div class="modal-content">
+            <span class="close-modal"><i class="bi bi-x-lg"></i></span>
+            <h3>Семейный психолог</h3>
+            <p>Бесплатные кабинеты семейного психолога в каждом районе. Индивидуальные и семейные консультации, семинары по детско-родительским отношениям.</p>
+        </div>
+    </div>
+
+    <div id="registrationModal" class="modal">
+        <div class="modal-content">
+            <span class="close-modal"><i class="bi bi-x-lg"></i></span>
+            <h3 id="modalEventTitle">Регистрация на мероприятие</h3>
+            <form id="registrationForm">
+                <div class="form-group">
+                    <label for="name">ФИО *</label>
+                    <input type="text" id="name" name="name" required placeholder="Иванов Иван Иванович">
+                </div>
+                <div class="form-group">
+                    <label for="email">Email *</label>
+                    <input type="email" id="email" name="email" required placeholder="example@mail.ru">
+                </div>
+                <div class="form-group">
+                    <label for="phone">Телефон *</label>
+                    <input type="tel" id="phone" name="phone" required placeholder="+7 (999) 999-99-99">
+                </div>
+                <div class="form-group">
+                    <label>Форма участия *</label>
+                    <div class="radio-group">
+                        <label><input type="radio" name="participation" value="offline" required> Очно</label>
+                        <label><input type="radio" name="participation" value="online"> Онлайн</label>
+                    </div>
+                </div>
+                <div class="form-group">
+                    <label for="date">Дата мероприятия</label>
+                    <input type="date" id="date" name="date" readonly>
+                </div>
+                <div class="form-buttons">
+                    <button type="button" class="btn btn-secondary" id="clearForm"><i class="bi bi-eraser"></i> Очистить</button>
+                    <button type="submit" class="btn"><i class="bi bi-check-circle"></i> Зарегистрироваться</button>
+                </div>
+            </form>
+        </div>
+    </div>
+
+    <script src="js/script.js"></script>
+</body>
+</html>
